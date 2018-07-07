@@ -1,0 +1,28 @@
+{
+  "name": "mern_task",
+  "version": "1.0.0",
+  "description": "try MERN",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rammsesgit/MERN_task.git"
+  },
+  "author": "Isar Ramses Cadena Gaona",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rammsesgit/MERN_task/issues"
+  },
+  "homepage": "https://github.com/rammsesgit/MERN_task#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "mongoose": "^5.2.1",
+    "morgan": "^1.9.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.5"
+  }
+}
