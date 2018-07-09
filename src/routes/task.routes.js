@@ -25,7 +25,9 @@ router.post('/', async (req, res) => {
   })
 
   await task.save()
-  res.json('recived')
+  res.json({
+    status: 'Task saved'
+  })
 })
 
 router.put('/:id', async (req, res) => {
@@ -39,7 +41,7 @@ router.put('/:id', async (req, res) => {
   }
   await Task.findByIdAndUpdate(req.params.id, newTask)
   res.json({
-    "status": 'Task Updated'
+    status: 'Task Updated'
   })
 })
 
