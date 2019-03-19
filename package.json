@@ -20,7 +20,7 @@
   "homepage": "https://github.com/rammsesgit/MERN_task#readme",
   "dependencies": {
     "express": "^4.16.4",
-    "mongoose": "^5.4.12",
+    "mongoose": "^5.4.19",
     "morgan": "^1.9.1"
   },
   "devDependencies": {
@@ -29,9 +29,9 @@
     "babel-preset-env": "^1.7.0",
     "babel-preset-react": "^6.24.1",
     "nodemon": "^1.18.10",
-    "react": "^16.8.1",
-    "react-dom": "^16.8.1",
-    "webpack": "^4.29.3",
-    "webpack-cli": "^3.2.3"
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0"
   }
 }
